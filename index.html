@@ -14,26 +14,21 @@
 
 <header>
     <h1>🤖 DIÁRIO DE ROBÓTICA</h1>
-    <p>Relatório de Experimentos de Física e Automação</p>
+    <p>Relato dos experimentos de Física e Automação</p>
 </header>
 
-<nav>
-    <a href="#relatorio">Relatório</a>
-    <a href="#analise">Análise</a>
-    <a href="#anterior">Experimento Anterior</a>
-    <a href="#ia">IA</a>
-</nav>
+<main>
 
-<section id="relatorio" class="card">
+<!-- RELATÓRIO PRINCIPAL -->
+<section class="bloco">
     <h2>🚦 Semáforo Inteligente com Sensor IR</h2>
 
-    <h3>Questão Investigada</h3>
-    <p>Como a automação pode otimizar o fluxo de trânsito e evitar esperas desnecessárias?</p>
+    <p><strong>Questão investigada:</strong> Como a automação pode otimizar o fluxo de trânsito e evitar esperas desnecessárias?</p>
 
-    <h3>Procedimento</h3>
-    <p>Montamos um sistema com LEDs e sensor infravermelho que detecta veículos e controla o semáforo automaticamente.</p>
+    <p><strong>Procedimento:</strong> Foi montado um sistema com LEDs e sensor infravermelho capaz de detectar veículos e controlar o semáforo automaticamente.</p>
 
-    <h3>Dados</h3>
+    <p><strong>Dados:</strong> O sensor detecta objetos em cerca de 0,5 segundos. Porém, cores escuras e luz intensa podem interferir.</p>
+
     <table>
         <tr>
             <th>Situação</th>
@@ -56,54 +51,81 @@
             <td>Falha</td>
         </tr>
     </table>
+
+    <p><strong>Análise:</strong> O sistema está relacionado com conceitos de velocidade e distância de frenagem, importantes para garantir segurança no trânsito.</p>
+
+    <p><strong>Avaliação crítica:</strong> O experimento faz sentido pois adapta o semáforo à presença real de veículos, mas é limitado pelo alcance do sensor.</p>
+
+    <p><strong>Limitações:</strong> Interferência da luz e incapacidade de diferenciar tipos de veículos.</p>
+
+    <p><strong>Mobilidade urbana:</strong> Esse tipo de tecnologia contribui para cidades inteligentes, reduzindo congestionamentos e poluição.</p>
 </section>
 
-<section id="analise" class="card">
-    <h2>🧠 Análise e Reflexão</h2>
-
-    <p><strong>Física:</strong> Relaciona-se com velocidade e distância de frenagem.</p>
-
-    <p><strong>Avaliação:</strong> O sistema funciona melhor que semáforos fixos, mas é limitado.</p>
-
-    <p><strong>Limitações:</strong> Luz e cor interferem no sensor.</p>
-
-    <p><strong>Mobilidade Urbana:</strong> Reduz trânsito e melhora segurança.</p>
-</section>
-
-<section id="anterior" class="card">
+<!-- EXPERIMENTO ANTERIOR -->
+<section class="bloco">
     <h2>🔬 Experimento Anterior</h2>
 
-    <p>Semáforos inteligentes usam sensores IR para detectar veículos e ajustar o trânsito em tempo real.</p>
+    <p>
+        Os semáforos inteligentes com sensor infravermelho (IR) são sistemas que detectam veículos ou pedestres em tempo real
+        e ajustam automaticamente o tempo dos sinais. Diferente dos modelos tradicionais, eles evitam esperas desnecessárias.
+    </p>
 
-    <h3>Como funciona</h3>
-    <p>O sensor detecta movimento e ativa o sinal verde quando necessário.</p>
+    <p>
+        O funcionamento ocorre quando o sensor emite um feixe infravermelho que é interrompido ao detectar um objeto,
+        enviando um sinal para o sistema liberar o semáforo.
+    </p>
 
-    <h3>Vantagens</h3>
+    <p>
+        Esses sistemas são normalmente construídos com Arduino, sensores IR e LEDs,
+        sendo muito utilizados em faixas de pedestres e cruzamentos com baixo fluxo.
+    </p>
+
+    <p><strong>Vantagens:</strong></p>
     <ul>
-        <li>Menos congestionamento</li>
-        <li>Mais segurança</li>
-        <li>Maior eficiência</li>
+        <li>Redução de congestionamentos</li>
+        <li>Maior segurança</li>
+        <li>Melhor eficiência no trânsito</li>
+        <li>Possibilidade de sincronização (ondas verdes)</li>
     </ul>
 
-    <img src="imagens/experimento-anterior.jpg">
+    <p>
+        Esse experimento foi importante para entender como sensores podem ser usados
+        para automatizar o trânsito e melhorar a mobilidade urbana.
+    </p>
+
+    <img src="imagens/experimento-anterior.jpg" alt="Semáforo inteligente">
 </section>
 
-<section id="ia" class="card">
-    <h2>🧠 Inteligência Artificial</h2>
+<!-- IA -->
+<section class="bloco">
+    <h2>🧠 Projeto com Inteligência Artificial</h2>
 
-    <p>A IA pode simular e prever o comportamento do trânsito com base em dados.</p>
+    <p>
+        A inteligência artificial pode ser utilizada para simular e prever o comportamento do trânsito,
+        analisando dados em tempo real e ajudando na tomada de decisões.
+    </p>
 
-    <img src="imagens/Gemini_Generated_Image_c41vldc41vldc41v.png">
+    <img src="imagens/Gemini_Generated_Image_c41vldc41vldc41v.png" alt="Imagem gerada por IA">
 
-    <h3>Como criar um projeto</h3>
-    <p>Planejar → Sensores → Programar → Testar</p>
+    <p><strong>Como criar um projeto de robótica com IA:</strong></p>
+    <p>Definir objetivo → Escolher sensores → Programar → Testar e ajustar</p>
 
-    <h3>Prós e Contras</h3>
+    <p><strong>Pontos positivos:</strong></p>
     <ul>
-        <li>✔ Automação e precisão</li>
-        <li>✖ Dependência de tecnologia</li>
+        <li>Maior precisão</li>
+        <li>Automação de processos</li>
+        <li>Análise rápida de dados</li>
+    </ul>
+
+    <p><strong>Pontos negativos:</strong></p>
+    <ul>
+        <li>Dependência de tecnologia</li>
+        <li>Custo elevado</li>
+        <li>Possíveis erros de programação</li>
     </ul>
 </section>
+
+</main>
 
 <footer>
     <p>Projeto Escolar - Física e Robótica</p>

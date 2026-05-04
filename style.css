@@ -16,26 +16,14 @@ header h1 {
     font-family: 'Merriweather', serif;
 }
 
-/* MENU */
-nav {
-    background: #1565c0;
-    padding: 10px;
-    text-align: center;
+/* CONTEÚDO */
+main {
+    max-width: 900px;
+    margin: auto;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* CARDS */
-.card {
+/* BLOCOS */
+.bloco {
     background: white;
     margin: 20px;
     padding: 20px;
@@ -61,7 +49,7 @@ th {
     color: white;
 }
 
-/* IMAGENS */
+/* IMAGEM */
 img {
     width: 100%;
     margin-top: 10px;
