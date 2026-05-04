@@ -5,10 +5,10 @@ body {
 }
 
 header {
-    background-color: #003366;
+    background-color: #002244;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -17,13 +17,14 @@ section {
 }
 
 h2 {
-    color: #003366;
+    color: #002244;
     font-family: 'Playfair Display', serif;
 }
 
 .tabela {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 10px;
 }
 
 .tabela th, .tabela td {
@@ -34,9 +35,10 @@ h2 {
 
 .diario {
     background-color: #e6ffe6;
-    padding: 15px;
 }
 
 img {
     max-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
 }
