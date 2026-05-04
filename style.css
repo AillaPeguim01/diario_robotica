@@ -1,44 +1,77 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
 }
 
+/* HEADER */
 header {
-    background-color: #002244;
+    background: #0d47a1;
     color: white;
     text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+}
+
+/* MENU */
+nav {
+    background: #1565c0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    margin: 20px;
     padding: 20px;
-    font-family: 'Playfair Display', serif;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-section {
-    padding: 20px;
-}
-
-h2 {
-    color: #002244;
-    font-family: 'Playfair Display', serif;
-}
-
-.tabela {
+/* TABELA */
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-.tabela th, .tabela td {
-    border: 1px solid black;
+th, td {
+    border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
 }
 
-.diario {
-    background-color: #e6ffe6;
+th {
+    background: #1976d2;
+    color: white;
 }
 
+/* IMAGENS */
 img {
-    max-width: 100%;
+    width: 100%;
     margin-top: 10px;
     border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #0d47a1;
+    color: white;
+    padding: 10px;
 }

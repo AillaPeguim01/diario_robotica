@@ -2,109 +2,112 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DIÁRIO DE ROBÓTICA</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Merriweather&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-    <h1>Diário de Robótica</h1>
+    <h1>🤖 DIÁRIO DE ROBÓTICA</h1>
+    <p>Relatório de Experimentos de Física e Automação</p>
 </header>
 
-<section>
-    <h2>📊 Dados Coletados</h2>
-    <table class="tabela">
+<nav>
+    <a href="#relatorio">Relatório</a>
+    <a href="#analise">Análise</a>
+    <a href="#anterior">Experimento Anterior</a>
+    <a href="#ia">IA</a>
+</nav>
+
+<section id="relatorio" class="card">
+    <h2>🚦 Semáforo Inteligente com Sensor IR</h2>
+
+    <h3>Questão Investigada</h3>
+    <p>Como a automação pode otimizar o fluxo de trânsito e evitar esperas desnecessárias?</p>
+
+    <h3>Procedimento</h3>
+    <p>Montamos um sistema com LEDs e sensor infravermelho que detecta veículos e controla o semáforo automaticamente.</p>
+
+    <h3>Dados</h3>
+    <table>
         <tr>
-            <th>Tempo (s)</th>
-            <th>Distância (m)</th>
-            <th>Velocidade (m/s)</th>
+            <th>Situação</th>
+            <th>Tempo</th>
+            <th>Resultado</th>
         </tr>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>2</td>
+            <td>Objeto claro</td>
+            <td>0,5s</td>
+            <td>Funcionou</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>4</td>
-            <td>2</td>
+            <td>Objeto escuro</td>
+            <td>0,7s</td>
+            <td>Falha parcial</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>6</td>
-            <td>2</td>
+            <td>Luz forte</td>
+            <td>Variável</td>
+            <td>Falha</td>
         </tr>
     </table>
 </section>
 
-<section>
-    <h2>📌 Análise dos Dados</h2>
-    <p>Os dados mostram velocidade constante, caracterizando movimento uniforme, como estudado em Física.</p>
+<section id="analise" class="card">
+    <h2>🧠 Análise e Reflexão</h2>
+
+    <p><strong>Física:</strong> Relaciona-se com velocidade e distância de frenagem.</p>
+
+    <p><strong>Avaliação:</strong> O sistema funciona melhor que semáforos fixos, mas é limitado.</p>
+
+    <p><strong>Limitações:</strong> Luz e cor interferem no sensor.</p>
+
+    <p><strong>Mobilidade Urbana:</strong> Reduz trânsito e melhora segurança.</p>
 </section>
 
-<section>
-    <h2>🤔 Reflexão Crítica</h2>
-    <p>Os resultados fazem sentido, pois indicam um padrão linear. Pequenos erros podem ocorrer devido à medição manual.</p>
-</section>
-
-<section>
-    <h2>⚠️ Limitações e Incertezas</h2>
-    <p>Erros de tempo de reação, precisão dos sensores e condições do ambiente podem afetar os resultados.</p>
-</section>
-
-<section>
-    <h2>🚗 Relação com Mobilidade Urbana</h2>
-    <p>Esse estudo ajuda a entender o fluxo de veículos, velocidade média e organização do trânsito nas cidades.</p>
-</section>
-
-<!-- DIÁRIO -->
-<section class="diario">
-<section>
+<section id="anterior" class="card">
     <h2>🔬 Experimento Anterior</h2>
-    <p>No experimento anterior, analisamos queda livre e aceleração da gravidade.</p>
 
-    <img src="imagens/experimento-anterior.jpg" alt="Experimento anterior">
-</section>
+    <p>Semáforos inteligentes usam sensores IR para detectar veículos e ajustar o trânsito em tempo real.</p>
 
-<section>
-    <h2>🧠 Imagem gerada por IA</h2>
-    <p>
-A imagem simulando um projeto de robótica foi criada utilizando inteligência artificial:
-</p>
+    <h3>Como funciona</h3>
+    <p>O sensor detecta movimento e ativa o sinal verde quando necessário.</p>
 
-    <img src="Gemini_Generated_Image_c41vldc41vldc41v.png" alt="Imagem IA">
-</section>
-
-<!-- IA -->
-<section>
-    <h2>🤖 Projeto de Robótica com IA</h2>
-
-    <h3>Como criar:</h3>
-    <p>
-        1. Definir objetivo<br>
-        2. Escolher sensores<br>
-        3. Programar o sistema<br>
-        4. Testar e ajustar
-    </p>
-
-    <h3>👍 Pontos positivos</h3>
+    <h3>Vantagens</h3>
     <ul>
-        <li>Automação</li>
-        <li>Precisão nos dados</li>
-        <li>Facilidade de análise</li>
+        <li>Menos congestionamento</li>
+        <li>Mais segurança</li>
+        <li>Maior eficiência</li>
     </ul>
 
-    <h3>👎 Pontos negativos</h3>
+    <img src="imagens/experimento-anterior.jpg">
+</section>
+
+<section id="ia" class="card">
+    <h2>🧠 Inteligência Artificial</h2>
+
+    <p>A IA pode simular e prever o comportamento do trânsito com base em dados.</p>
+
+    <img src="imagens/Gemini_Generated_Image_c41vldc41vldc41v.png">
+
+    <h3>Como criar um projeto</h3>
+    <p>Planejar → Sensores → Programar → Testar</p>
+
+    <h3>Prós e Contras</h3>
     <ul>
-        <li>Custo alto</li>
-        <li>Dependência de tecnologia</li>
-        <li>Erros de programação</li>
+        <li>✔ Automação e precisão</li>
+        <li>✖ Dependência de tecnologia</li>
     </ul>
 </section>
+
+<footer>
+    <p>Projeto Escolar - Física e Robótica</p>
+</footer>
 
 </body>
 </html>
