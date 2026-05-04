@@ -1,1 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+}
 
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #003366;
+    font-family: 'Playfair Display', serif;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.diario {
+    background-color: #e6ffe6;
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+}
