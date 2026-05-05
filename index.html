@@ -1,110 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DIÁRIO DE ROBÓTICA</title>
+    <meta charset="UTF-8">
+    <title>Relatório de Experimentos - Movimento</title>
+    <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Fonte do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-    <h1>DIÁRIO DE ROBÓTICA</h1>
-
+    <h1>Relatório de Experimentos sobre Movimento</h1>
 </header>
 
-<main>
+<section>
+    <h2>🔍 Questão Investigada</h2>
+    <p>
+        O experimento buscou entender como ocorre a movimentação em diferentes condições,
+        especialmente relacionadas à acessibilidade, como o uso de cadeira de rodas e deslocamento com os olhos vendados.
+    </p>
+</section>
 
-<!-- RELATÓRIO PRINCIPAL -->
-<section class="bloco">
-    <h2>🚦 Semáforo Inteligente com Sensor IR - experimento anterior </h2>
+<section class="bg2">
+    <h2>⚙️ Procedimento Experimental</h2>
+    <p>
+        Foram realizados testes com alunos utilizando cadeira de rodas e vendas nos olhos.
+        Também foi desenvolvido um sensor para auxiliar na locomoção da cadeira de rodas,
+        visando aumentar a segurança e autonomia.
+    </p>
+</section>
 
-    <p><strong>Questão investigada:</strong> Como a automação pode otimizar o fluxo de trânsito e evitar esperas desnecessárias?</p>
+<section>
+    <h2>📊 Dados Coletados</h2>
 
-    <p><strong>Procedimento:</strong> Foi montado um sistema com LEDs e sensor infravermelho capaz de detectar os pedestres e controlar o semáforo automaticamente.</p>
-
-    <p><strong>Dados:</strong> O projeto possui dois semaforos, um para os carros (verde, amarelo e vermelho), outro para os pedestres (verde e vermelho), Verde: atravesse, Amarelo: atenção e Vermelho: espere. Sendo de acordo quando o sensor detecta um pedestre.</p>
     <table>
         <tr>
-    <th>Condição</th>
-    <th>Resposta do Sistema</th>
-</tr>
-<tr>
-    <td>Sem veículo detectado</td>
-    <td>Semáforo permanece em verde para carros</td>
-</tr>
-<tr>
-    <td>Pedestre detectado</td>
-    <td>Ativa mudança de sinal</td>
-</tr>
-<tr>
-    <td>Travessia ativa</td>
-    <td>Pedestres recebem sinal verde</td>
-</tr>
-</table>
-
-    <p><strong>Análise:</strong> O sistema está relacionado com conceitos de velocidade e distância de frenagem, importantes para garantir segurança no trânsito.</p>
-
-    <p><strong>Avaliação crítica:</strong> O experimento faz sentido pois adapta o semáforo à presença real de veículos, mas é limitado pelo alcance do sensor.</p>
-
-    <p><strong>Limitações:</strong> Interferência da luz e incapacidade de diferenciar tipos de veículos (ex:preferncia para uma ambulancia.).</p>
-
-    <p><strong>Mobilidade urbana:</strong> Os semáforos inteligentes com sensor infravermelho (IR) são sistemas que detectam veículos ou pedestres em tempo real
-        e ajustam automaticamente o tempo dos sinais. Diferente dos modelos tradicionais, eles evitam esperas desnecessárias.
-    </p>
+            <th>Experimento</th>
+            <th>Tempo</th>
+            <th>Dificuldade</th>
+        </tr>
+        <tr>
+            <td>Cadeira de rodas</td>
+            <td>2 min</td>
+            <td>Média</td>
+        </tr>
+        <tr>
+            <td>Olhos vendados</td>
+            <td>3 min</td>
+            <td>Alta</td>
+        </tr>
+    </table>
 
     <p>
-        O funcionamento ocorre quando o sensor emite um feixe infravermelho que é interrompido ao detectar um objeto,
-        enviando um sinal para o sistema liberar o semáforo.
+        Observou-se que a locomoção com venda apresentou maior dificuldade,
+        destacando a importância da visão no movimento.
     </p>
+</section>
 
-    <p><strong>Vantagens:</strong></p>
-    <ul>
-        <li>Redução de congestionamentos</li>
-        <li>Maior segurança</li>
-        <li>Melhor eficiência no trânsito</li>
-    </ul>
+<section class="bg2">
+    <h2>🧠 Análise Física</h2>
+    <p>
+        Os experimentos se relacionam com conceitos de movimento, velocidade e percepção espacial.
+        A ausência de visão altera a orientação e o controle do movimento,
+        evidenciando a importância dos sentidos na Física do deslocamento.
+    </p>
+</section>
+
+<section>
+    <h2>📷 Diário do Experimento</h2>
+    <p>Registro das atividades realizadas em aula de robótica:</p>
+
+    <img src="https://via.placeholder.com/300" alt="Experimento cadeira de rodas">
+    <img src="https://via.placeholder.com/300" alt="Sensor desenvolvido">
 
     <p>
-        Esse experimento foi importante para entender como sensores podem ser usados
-        para automatizar o trânsito e melhorar a mobilidade urbana.
+        Durante as aulas, desenvolvemos um sensor para auxiliar na cadeira de rodas,
+        com o objetivo de evitar colisões.
+    </p>
+</section>
+
+<section class="bg2">
+    <h2>🤖 Projeto de Robótica com IA</h2>
+    <p><strong>Pontos positivos:</strong> ajuda na acessibilidade, aumenta segurança.</p>
+    <p><strong>Pontos negativos:</strong> custo elevado e dependência tecnológica.</p>
+</section>
+
+<section>
+    <h2>📚 Tecnologia: Benefícios e Malefícios</h2>
+    <p>
+        A tecnologia pode melhorar a mobilidade urbana e acessibilidade,
+        porém também pode gerar dependência e desigualdade de acesso.
     </p>
 
-    <img src="WhatsApp Image 2026-05-04 at 20.59.55.jpeg" alt="Semáforo inteligente">
+    <img src="https://via.placeholder.com/400" alt="Esquema de mobilidade">
 </section>
 
-<!-- IA -->
-<section class="bloco">
-    <h2>🧠 Projeto criado com Inteligência Artificial</h2>
-
-    <img src="Gemini_Generated_Image_c41vldc41vldc41v.png" alt="Imagem gerada por IA">
-
-    <p><strong>Como utilizar a IA para criar um projeto de robótica:</strong></p>
-    <p>Ela atua como assistente técnico, escrevendo códigos para o Arduino, desenhando diagramas de circuitos, sugerindo componentes compatíveis e corrigindo erros de lógica instantaneamente.</p>
-
-    <p><strong>Pontos positivos:</strong></p>
-    <ul>
-        <li>Maior precisão</li>
-        <li>Automação de processos</li>
-        <li>Análise rápida de dados</li>
-    </ul>
-
-    <p><strong>Pontos negativos:</strong></p>
-    <ul>
-        <li>Dependência de tecnologia</li>
-        <li>Custo elevado</li>
-        <li>Possíveis erros de programação</li>
-    </ul>
+<section class="bg2">
+    <h2>🚦 Relação com Mobilidade Urbana</h2>
+    <p>
+        Os resultados mostram a importância de cidades mais acessíveis.
+        Melhorias em infraestrutura e uso de tecnologia podem facilitar o deslocamento de todos.
+    </p>
 </section>
-
-</main>
 
 <footer>
-    <p>SITE para apresentação do experimento</p>
+    <p>Trabalho escolar - Física e Robótica</p>
 </footer>
 
 </body>
