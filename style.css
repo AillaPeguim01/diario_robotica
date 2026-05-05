@@ -6,7 +6,7 @@ body {
 
 /* HEADER */
 header {
-    background: #0d47a1;
+    background: #0d48a1b4;
     color: white;
     text-align: center;
     padding: 30px;
@@ -24,11 +24,11 @@ main {
 
 /* BLOCOS */
 .bloco {
-    background: white;
+    background: rgba(242, 250, 204, 0.475);
     margin: 20px;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(206, 215, 251, 0.99);
 }
 
 /* TABELA */
