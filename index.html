@@ -30,26 +30,22 @@
     <p><strong>Dados:</strong> O projeto possui dois semaforos, um para os carros (verde, amarelo e vermelho), outro para os pedestres (verde e vermelho), Verde: atravesse, Amarelo: atenção e Vermelho: espere. Sendo de acordo quando o sensor detecta um pedestre.</p>
     <table>
         <tr>
-            <th>Situação</th>
-            <th>Tempo</th>
-            <th>Resultado</th>
-        </tr>
-        <tr>
-            <td>Objeto claro</td>
-            <td>0,5s</td>
-            <td>Funcionou</td>
-        </tr>
-        <tr>
-            <td>Objeto escuro</td>
-            <td>0,7s</td>
-            <td>Falha parcial</td>
-        </tr>
-        <tr>
-            <td>Luz forte</td>
-            <td>Variável</td>
-            <td>Falha</td>
-        </tr>
-    </table>
+    <th>Condição</th>
+    <th>Resposta do Sistema</th>
+</tr>
+<tr>
+    <td>Sem veículo detectado</td>
+    <td>Semáforo permanece em verde para carros</td>
+</tr>
+<tr>
+    <td>Veículo detectado</td>
+    <td>Ativa mudança de sinal</td>
+</tr>
+<tr>
+    <td>Travessia ativa</td>
+    <td>Pedestres recebem sinal verde</td>
+</tr>
+</table>
 
     <p><strong>Análise:</strong> O sistema está relacionado com conceitos de velocidade e distância de frenagem, importantes para garantir segurança no trânsito.</p>
 
