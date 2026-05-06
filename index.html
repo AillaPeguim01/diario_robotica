@@ -17,8 +17,12 @@
 <hr>
 
 
-<div class="fundo2">
+<div class="fundo1">
     <h1>Semaforo Inteligente - Sensor IR </h1>
+        <img src="WhatsApp Image 2026-05-04 at 20.59.55.jpeg" alt="Gerada com IA">
+        </div>
+        <hr>
+<div class="fundo2">
 <h2>Questão Investigativa</h2>
 <p>
 Investigar como um semáforo inteligente com sensor infravermelho (IR) pode detectar a presença de veículos e pedestres, controlando automaticamente os sinais para melhorar a segurança e o fluxo do trânsito.
@@ -31,9 +35,8 @@ Investigar como um semáforo inteligente com sensor infravermelho (IR) pode dete
 <h2>Procedimento Experimental</h2>
 <p>
 Foi montado um sistema com LEDs representando o semáforo: verde, amarelo e vermelho para carros, e verde e vermelho para pedestres.
-Um sensor IR foi utilizado para detectar a presença de veículos ou pessoas.
-Quando o sensor identifica movimento, o sistema altera o tempo dos sinais, priorizando a passagem de quem foi detectado.
-O controle foi feito por um microcontrolador (Arduino).
+Um sensor IR foi utilizado para detectar a presença de pessoas.
+Quando o sensor identifica movimento, o sistema altera o sinal dos carros de verde, para amarelo e depois vermelho, e quando o semaforo dos carros esta vermelho, o dos pedstres fica verde.
 </p>
 </div>
 
@@ -42,10 +45,9 @@ O controle foi feito por um microcontrolador (Arduino).
 <div class="fundo2">
 <h2>Dados Observados</h2>
 <p>
-• Sem presença detectada: tempo padrão do semáforo<br>
-• Veículo detectado: aumento do tempo verde para carros<br>
-• Pedestre detectado: ativação do sinal verde para pedestres<br>
-• Mudança de sinal: passagem pelo amarelo antes do vermelho<br>
+• Sem presença detectada: semaforo verde para carros <br>
+• Pedestre detectado: sinal verde para pedestres<br>
+• Mudança de sinal dos carros: passagem pelo amarelo antes do vermelho<br>
 </p>
 </div>
 
