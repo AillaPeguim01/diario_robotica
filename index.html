@@ -134,13 +134,13 @@ enquanto a cadeira de rodas, neste caso, apresentou um desempenho próximo ao mo
 
 <h2>LABORATÓRIO: SENSOR PARA CADEIRA DE RODAS E LABORATÓRIA</h2>
 <p>
-    <img src="Gemini_Generated_Image_huc1f6huc1f6huc1.png" alt="Gerada com IA">
+    <img src="Gemini_Generated_Image_jcxh7njcxh7njcxh.png" alt="Gerada com IA">
 </div>
 <div class="fundo1">
     <hr>
 <h3>Questão Investigativa</h3>
 <p>
-Investigar como um sensor de movimento (MPU6050) pode detectar inclinações e controlar automaticamente motores para estabilizar uma cadeira de rodas.
+    Investigar como o sensor ultrassônico pode ser utilizado em um sistema robótico para medir distâncias com precisão por meio da propagação de ondas sonoras.
 <p>
 </div>
 
@@ -149,9 +149,9 @@ Investigar como um sensor de movimento (MPU6050) pode detectar inclinações e c
 
 <h3>Procedimento Experimental</h3>
 <p>
-Foi utilizado um sensor MPU6050 conectado a um Arduino para medir a inclinação nos eixos X, Y e Z.
-Esses valores foram convertidos em comandos para servomotores, que ajustam a posição da estrutura para manter o equilíbrio.
-Os dados foram acompanhados pelo Monitor Serial.
+Foi montado um circuito com sensor ultrassônico conectado a um microcontrolador. 
+Em seguida, diferentes objetos foram posicionados em variadas distâncias para que o sensor 
+emitisse sinais ultrassônicos e calculasse a distância a partir do tempo de retorno do eco.
 </p>
 </div>
 
@@ -159,19 +159,18 @@ Os dados foram acompanhados pelo Monitor Serial.
 <div class="fundo1">
 <h3>Dados Observados</h3>
 <p>
-• Sem inclinação: sistema equilibrado (90° nos eixos)<br>
-• Inclinação leve: pequenas correções nos motores<br>
-• Inclinação média: ajustes moderados<br>
-• Inclinação forte: correção máxima dos servos<br>
+Os testes mostraram que quanto maior a distância do objeto, maior era o tempo de retorno do sinal.
+ O sensor apresentou medições próximas das distâncias reais, 
+ com pequenas variações causadas pelo ambiente e pelo posicionamento dos objetos.
 </p>
 </div>
 <hr>
 <div class="fundo2">
 <h3>Análise Física</h3>
 <p>
-O sistema está relacionado a conceitos de movimento angular e equilíbrio.
-O sensor identifica a inclinação e os servos aplicam força contrária para restaurar a estabilidade,
-demonstrando o uso de torque e controle de movimento.
+O funcionamento do sensor baseia-se na reflexão das ondas sonoras.
+ O sensor emite um pulso ultrassônico que retornaapós
+  atingir um objeto, permitindo calcular a distância utilizando a velocidade do som no ar.
 </p>
 </div>
 </p>
